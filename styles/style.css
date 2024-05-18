@@ -39,6 +39,21 @@ video {
     font-family: "Caveat", cursive;
 }
 
+.pBorder {
+    border: 1px solid var(--primaryColor);
+}
+
+input {
+    background: #fff;
+}
+
+textarea {
+    background: #fff;
+}
+
+select {
+    background: #fff;
+}
 
 .container {
     width: 90% !important;
