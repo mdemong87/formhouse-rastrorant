@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primaryColor: #c5ac88;
+    --primaryColor: #e3aa11;
 }
 
 body {
@@ -39,8 +39,20 @@ video {
     font-family: "Caveat", cursive;
 }
 
+.primaryHeader {
+    font-size: 70px;
+}
+
+.secHeader {
+    font-size: 53px;
+}
+
 .pBorder {
     border: 1px solid var(--primaryColor);
+}
+
+.pShadow {
+    box-shadow: 4px 4px 3px var(--primaryColor);
 }
 
 input {
@@ -77,7 +89,7 @@ select {
 
 
 .btn:hover {
-    border: 1px solid var(--primaryColor);
+    border: 1px dashed var(--primaryColor);
     color: var(--primaryColor);
 }
 
@@ -186,7 +198,7 @@ select {
 }
 
 .award-winning-Wrper>p {
-    width: 40% !important;
+    width: 60% !important;
     text-align: center;
 
 }
@@ -217,11 +229,17 @@ select {
 
 .food-card-Wrper>div:first-child {
     margin-top: 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/welcomerestrorant.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .food-card-Wrper>div:last-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/welcomerestrorant.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -271,6 +289,11 @@ select {
 
 
 @media (max-width:600px) {
+
+    .headerLogo {
+        width: 60px;
+    }
+
     .topheaderBookatableText {
         font-size: 20px;
     }
@@ -284,6 +307,10 @@ select {
 
 
 @media (max-width:768px) {
+
+    .headerLogo {
+        width: 80px;
+    }
 
     .navbars>ul {
         width: 320px;

@@ -29,13 +29,22 @@
 }
 
 .menu-card-Wrper>div:first-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/welcomerestrorant.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .menu-card-Wrper>div:nth-child(2) {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/welcomerestrorant.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/drinks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .menu-card-Wrper>div:last-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/welcomerestrorant.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/desertitem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
