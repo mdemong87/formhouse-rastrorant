@@ -11,10 +11,7 @@ window.addEventListener('scroll', (e) => {
         navberHeader.style.width = "100%";
     }
 
-
 });
-
-
 
 
 //navbar toggleing
@@ -36,4 +33,21 @@ window.addEventListener('resize', (e) => {
     } else {
         navbars.style.display = "none";
     }
+})
+
+
+
+// bottom to top scroll logic
+const bottomToTopBTNWrp = document.getElementById('bottomToTopBTNWrp');
+window.addEventListener('scroll', (e) => {
+    const hight = window.scrollY;
+    if (hight > 800) {
+        bottomToTopBTNWrp.style.display = "block"
+    } else {
+        bottomToTopBTNWrp.style.display = "none"
+    }
+})
+bottomToTopBTNWrp.addEventListener("click", () => {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 })

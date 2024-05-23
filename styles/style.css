@@ -139,7 +139,15 @@ select {
 }
 
 .navbars {
-    width: 85%;
+    width: 100% !important;
+}
+
+.navbarsUL {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .mnuHOver {
@@ -259,6 +267,30 @@ select {
 
 
 
+/* bottom to top scroll btnb */
+.bottomToTopBTNWrp {
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 92vh;
+    left: 93vw;
+}
+
+.bottomToTopBTNWrp>button {
+    background: var(--primaryColor);
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 
 
@@ -299,7 +331,7 @@ select {
     }
 
 
-    .navbars>ul {
+    .navbarsUL {
         width: 300px;
     }
 
@@ -312,8 +344,16 @@ select {
         width: 80px;
     }
 
-    .navbars>ul {
+    .navbarsUL {
         width: 320px;
+    }
+
+
+    /* bottom to top scroll btnb */
+    .bottomToTopBTNWrp {
+        position: fixed;
+        top: 92vh;
+        left: 85vw;
     }
 }
 
@@ -338,11 +378,12 @@ select {
         left: 0;
         height: 100vh;
         z-index: 99;
-        width: 100%;
+        width: 100% !important;
     }
 
-    .navbars>ul {
+    .navbarsUL {
         flex-direction: column;
+        justify-content: flex-start;
         width: 350px;
         background: black;
         height: 100vh;
@@ -413,4 +454,5 @@ select {
     .footerlogoWrper {
         margin: 20px 0;
     }
+
 }
