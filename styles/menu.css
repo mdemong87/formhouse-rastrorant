@@ -29,22 +29,30 @@
 }
 
 .menu-card-Wrper>div:first-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-01.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/menu-01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .menu-card-Wrper>div:nth-child(2) {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/drinks.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/drinks.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .menu-card-Wrper>div:last-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/desertitem.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/desertitem.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+@media (max-width:1024px) {
+    .menu-card-Wrper {
+        flex-direction: column;
+    }
 }

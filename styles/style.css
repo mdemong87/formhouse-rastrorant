@@ -139,7 +139,7 @@ select {
 }
 
 .navbars {
-    width: 90%;
+    width: 85%;
 }
 
 .mnuHOver {
@@ -229,14 +229,14 @@ select {
 
 .food-card-Wrper>div:first-child {
     margin-top: 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-01.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/menu-01.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .food-card-Wrper>div:last-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.611)), url('../assest/menu-02.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/menu-02.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -356,6 +356,7 @@ select {
     .welcomeTextWrper {
         text-align: center;
         margin-top: 40px;
+        align-items: center !important;
     }
 
 
